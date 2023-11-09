@@ -1,0 +1,66 @@
+body{
+    background: linear-gradient(180deg, rgba(3,22,83,1) 22%, rgba(69,182,196,1) 88%);
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: 'Geologica', sans-serif;
+
+
+}
+
+header h1 {
+    text-align: center;
+    margin-top: 2em;
+    font-size: 48px;
+    color: beige;
+    font-weight: 100;
+}
+
+.conversores{
+    margin-top: 2em;
+    color: beige;
+    font-weight: 100;
+    font-size: 24px;
+    
+
+}
+
+.conversores button{
+    width: 30%;
+    align-self: center;
+    padding: 9px;
+    border-radius: 30px;
+    font-family: 'Geologica', sans-serif;
+
+}
+
+.conversores input{
+    padding: 9px;
+    border-radius: 30px;
+    font-family: 'Geologica', sans-serif;
+    font-weight: 100;
+
+}
+
+.conversor-romano{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 1em;
+    text-align: center;
+
+}
+
+
+.conversor-decimal{
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 1em;
+    text-align: center;
+
+}
